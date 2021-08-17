@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionHistory {
   width: 700px;
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -6,48 +6,48 @@
   border-collapse: collapse;
 }
 
-.transaction-history th,
-.transaction-history td {
+.transactionHistory th,
+.transactionHistory td {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.transaction-history th {
+.transactionHistory th {
   font-weight: normal;
   color: #ffffff;
   background-color: #80b3ec;
   width: calc(100% / 3);
 }
 
-.transaction-history th:first-child,
-.transaction-history td:first-child {
+.transactionHistory th:first-child,
+.transactionHistory td:first-child {
   padding-left: 80px;
   text-align: left;
 }
 
-.transaction-history th:nth-child(2) {
+.transactionHistory th:nth-child(2) {
   border-right: solid 1px #ffffff;
   border-left: solid 1px #ffffff;
 }
 
-.transaction-history tr:nth-child(odd) td:nth-child(2) {
+.transactionHistory tr:nth-child(odd) td:nth-child(2) {
   border-right: solid 1px #e0e0e7;
   border-left: solid 1px #e0e0e7;
 }
 
-.transaction-history tr:nth-child(even) td:nth-child(2) {
+.transactionHistory tr:nth-child(even) td:nth-child(2) {
   border-right: solid 1px #ffffff;
   border-left: solid 1px #ffffff;
 }
 
-.transaction-history tr {
+.transactionHistory tr {
   color: #616161;
 }
 
-.transaction-history tr:nth-child(odd) {
+.transactionHistory tr:nth-child(odd) {
   background-color: #f8f8fa;
 }
 
-.transaction-history tr:nth-child(even) {
+.transactionHistory tr:nth-child(even) {
   background-color: #e1e6ec;
 }
